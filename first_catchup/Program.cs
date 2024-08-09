@@ -4,14 +4,8 @@ class Program
 {
     static void Main()
     {
-        int num = 3;
-        if (num % 2 == 0)
-        {
-            Console.WriteLine("Even");
-        }
-        else
-        {
-            Console.WriteLine("Odd");
-        }
+        Car car = new Car("ROOMY");
+        car.Accelerate();
+        car.ShowSpeed();
     }
 }
