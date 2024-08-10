@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Bicycle bicycle = new Bicycle();
-        bicycle.Drive();
+        Cat cat = new Cat { Name = "mimi" };
+        cat.MakeSound();
     }
 }
